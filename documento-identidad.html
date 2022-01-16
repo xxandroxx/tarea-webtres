@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Documento de identidad</title>
+</head>
+<body>
+
+    <header class="d-flex justify-content-between p-3 align-items-center">
+        <div class="d-flex flex img-arrow align-items-center">
+            <img src="img/Vector.png" alt="vector">
+            <a href="index.html">Atras</a>
+        </div>
+
+        <div>
+            <progress max="100" value="50"></progress>
+        </div>
+    </header>
+
+    
+    <main class="container pt-3 contenedor">
+        <h2 class="text-center">Documento de identidad</h2>
+
+
+        <div class="container contenedor-titulos pt-5">
+            <p>Tipo de documento</p>
+        </div>
+
+
+        <div class="bg-light p-1  mt-2">
+            <input type="radio" name="tipo" id="cedula" checked>
+            <label>Cédula</label>
+        </div>
+
+        <div class="bg-light p-1  mt-2">
+            <input type="radio" name="tipo" id="residencia">
+            <label>Cédula de residencia</label>
+        </div>
+
+        <div class="bg-light p-1  mt-2 mb-5">
+            <input type="radio" name="tipo" id="pasaporte">
+            <label>Pasaporte</label>
+        </div>
+    </main>
+
+
+    <section class="contenedor-titulos contenedor container">
+        <p>N° de identificación (sin guiones)</p>
+
+        <div class="contenedor-input mt-1 mb-5">
+            <input type="text" placeholder="Ejemplo: 0012510930088B">
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container text-center enlace mb-3">
+            <a href="#">¿Por qué me solicitan esta información?</a>
+        </div>
+    </section>
+
+    <section class="container">
+        <a class="btn btn-primary btn-lg bg-dark" href="feedback-avance.html">Continuar</a>
+    </section>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>

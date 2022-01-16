@@ -1,0 +1,70 @@
+h2{
+    font-size: 20px;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a{
+    color: #000;
+}
+
+
+/*Globales*/
+.contenedor{
+    margin: 0 auto;
+}
+
+.mantener{
+    width: 270px;
+    margin: 0 auto;
+}
+
+
+/*botones*/
+.bg-dark{
+    background-color: #000 !important;
+}
+
+.btn{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/*Vectores*/
+.img-arrow img{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+.contenedor-titulos p{
+    color: #666;
+}
+
+.bg-light{
+    background-color: #f5f8ff;
+}
+
+.contenedor-input input{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FAFBFE;
+    border-radius: 5px;
+    border: 1px solid #A1AAC9;
+    padding: 5px;
+}
+
+.enlace a{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.parrafo p{
+    font-size: 24px;
+}
