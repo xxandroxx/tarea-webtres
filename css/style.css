@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 h2{
     font-size: 20px;
 }
@@ -67,4 +71,20 @@ a{
 
 .parrafo p{
     font-size: 24px;
+}
+
+
+.contenedor-popup{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    padding: 50px;
+
+}
+
+.contenedor-popup img{
+    cursor: pointer;
 }
